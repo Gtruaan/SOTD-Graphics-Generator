@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+
+html {
+  height: 100%;
+  width: 100%;
+  max-height: 1920px;
+  max-width: 1080px;
+}
+
+:root {
+  --font_color: #fff;
+  --shadow_color: #1a1a1a;
+  /* colors will go here */
+}
+
+#track-image {
+  position: absolute;
+  min-width: 770px;
+  top: 500px;
+  left: 155px;
+
+  filter: drop-shadow(0px 8px 50px var(--shadow_color));
+}
+
+#main {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 1920px;
+  width: 1080px;
+  background: linear-gradient(
+    0deg, var(--color_1), var(--color_2), var(--color_4), var(--color_5)
+  );
+
+  text-align: center;
+}
+
+p {
+  margin-left: 130px;
+  margin-right: 130px;
+  font-family: Roboto;
+}
+
+#number {
+  position: relative;
+  margin-top: 300px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  font-size: 100px;
+
+  color: var(--font_color);
+}
+
+/* margin top is originally 1300px*/
+#track-title {
+  margin-top: 900px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  font-size: 70px;
+
+  color: var(--font_color);
+}
+
+#track-artist {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 50px;
+
+  color: var(--font_color);
+}
