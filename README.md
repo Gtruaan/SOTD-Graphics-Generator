@@ -52,7 +52,7 @@ matplotlib
 * Perform setup of a Spotify application to access the API. See [Spotify for Developers](https://developer.spotify.com/dashboard/applications).
 * Update `spotify_credentials.json` with your own credentials.
 
-## Additional notes
+## Notes
 
 * You can change the number of dominant colors and gradient structure by editing `n_colors` and the css file in `assets` respectively.
 * You can edit the HTML file freely
